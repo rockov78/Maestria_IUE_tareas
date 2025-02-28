@@ -1,0 +1,12 @@
+[package]
+name = "parallel_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.10.0"
+num-bigint = "0.4.6"
+# Dependencia local al paquete de estadística creado previamente.
+rustatistics_2 = { path = "../rustatistics_2" }
+tokio = { version = "1.43.0", features = ["full"] }
+concurrence_rs = { path = "../concurrence_rs" }
