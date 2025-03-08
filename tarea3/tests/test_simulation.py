@@ -1,7 +1,7 @@
 import unittest
 import asyncio
-from drones.models.quadcopter import Quadcopter
-from drones.models.commands import Forward, Take_off, Land
+from tarea3.models.quadcopter import Quadcopter
+from tarea3.models.commands import Forward, Take_off, Land
 
 class TestSimulacion(unittest.TestCase):
 
