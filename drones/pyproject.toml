@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "drone"
+version = "0.1.0"
+description = "Drone flight simulation with OOP principles"
+authors = ["Julian D. Otalvaro <juliandavid347@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+start = "main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
