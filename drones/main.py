@@ -18,7 +18,7 @@ class DroneSimulator:
         for dron in self.drones:
             pos = dron.get_position()
             if pos in posiciones:
-                print(f"⚠️ COLISIÓN DETECTADA en {pos} entre {posiciones[pos]} y {dron.id} ⚠️")
+                print(f" COLISIÓN DETECTADA en {pos} entre {posiciones[pos]} y {dron.id} ")
             else:
                 posiciones[pos] = dron.id  # Guardamos la posición ocupada
 
