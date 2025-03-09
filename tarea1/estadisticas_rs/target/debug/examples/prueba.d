@@ -1,0 +1,1 @@
+/home/rafae/maestria/class1/tarea1/estadisticas_rs/target/debug/examples/prueba: /home/rafae/maestria/class1/tarea1/estadisticas_rs/examples/prueba.rs /home/rafae/maestria/class1/tarea1/estadisticas_rs/src/lib.rs
