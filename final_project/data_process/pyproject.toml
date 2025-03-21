@@ -1,0 +1,23 @@
+[project]
+name = "data-process"
+version = "0.1.1"
+description = ""
+authors = [
+    { name = "rockov78", email = "rafael.chavesnovoa@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "concurrence_py @ ../concurrence_py",
+    "parallel_py @ ../parallel_py",
+    "parallel_rs @ src/rust_lib/parallel_rs/target/wheels/parallel_rs-0.1.0-cp312-cp312-manylinux_2_34_x86_64.whl",
+    "maturin (>=1.8.3,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{ include = "data_process", from = "src" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
